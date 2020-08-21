@@ -7,7 +7,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./show-user.component.css']
 })
 export class ShowUserComponent implements OnInit {
-userData={};
+userData=null;
   constructor(private userService:UsersService,private route: ActivatedRoute) { }
 
   async ngOnInit(){
